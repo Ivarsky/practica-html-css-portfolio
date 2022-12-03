@@ -29,9 +29,21 @@
         <h1>Mr.Meeseeks</h1>
         <h3><i>Look at me!, I'm Mr. Meeseeks!</i></h3>
     </header>
+
+    <body>
+        <div>
+            <picture>
+                <source media="(min-width: 1000px)" srcset="resources/images/mrmeeseeksg.jpg">
+
+                <source media="(min-width: 768px)" srcset="resources/images/mrmeeseeksm.jpg">
+
+                <img src="resources/images/mrmeeseeksp.jpg">
+            </picture>
+        </div>
+    </body>
     <main>
         <div>
-            <p>Teach, Train, Coach, Mentor, Counsel, Hire</p>
+            <p>Teach, Train, Coach, Mentor, Counsel, Tasks</p>
             <p>Mr.meeseeks helps you achieve your goals and desires</p>
         </div>
         <hr>
@@ -66,7 +78,7 @@
                 <ul>
                     <li>
                         <a href="https://www.youtube.com/watch?v=-eB09QMZ2OQ" target="_blank"
-                            rel="noreferrer noopener">Beth's becoming a complete woman</a>
+                            rel="noreferrer noopener">Beth's becoming of a complete woman</a>
                     </li>
                     <li>
                         <a href="https://www.youtube.com/watch?v=g0xPuFA-EVk" target="_blank"
@@ -82,7 +94,7 @@
         </section>
         <hr>
         <br>
-        <section>
+        <section id="section-3">
             <div>
                 <h2>Abilities, Skills and Talents</h2>
                 <ul>
@@ -95,6 +107,48 @@
                     <li>Communication</li>
                 </ul>
             </div>
+        </section>
+        <hr>
+        <br>
+        <section id="section-4">
+            <h2>
+                Contact form
+            </h2>
+            <p>Fill your data and we will send a Mr.Meeseeks box at your address.</p>
+            <!--TODO:Direccion de destino al terminar formulario-->
+            <form novalidate action="" method="post">
+                <div>
+                    <label for="name">Name</label>
+                    <input required type="text" name="name" id="name" placeholder="Your name here">
+                </div>
+                <div>
+                    <label for="lastname">Last name</label>
+                    <input required type="text" name="lastname" id="lastname" placeholder="Your last name here">
+                </div>
+                <div>
+                    <label for="mail">Email</label>
+                    <input required type="email" name="email" id="mail" placeholder="Add your email">
+                </div>
+                <div>
+                    <label for="phone">Phone number</label>
+                    <input type="tel" name="phone" id="phone" pattern="[0-9]+">
+                </div>
+                <fieldset>
+                    <legend>Mailing info</legend>
+                    <label for="address">Address</label>
+                    <input required type="text" name="address" id="address" placeholder="Street name, number, flat">
+                    <br>
+                    <label for="city">City</label>
+                    <input required type="text" name="city" id="city" placeholder="Add your city">
+                    <br>
+                    <label for="planet">Planet</label>
+                    <input required type="text" name="planet" id="planet" placeholder="Add your planet">
+                    <br>
+                    <label for="dimension">Dimension</label>
+                    <input type="text" name="dimension" id="dimension" placeholder="Add your dimension">
+                </fieldset>
+                <p>Note we don't send outside galactic federation space.</p>
+            </form>
         </section>
     </main>
 </body>
