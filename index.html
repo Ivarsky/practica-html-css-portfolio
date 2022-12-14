@@ -6,7 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mr. Meeseeks</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
     <!-- Meta properties para open graph -->
     <meta property="og:title" content="Mr.Meeseeks">
     <meta property="og:description"
@@ -17,23 +22,24 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li>
+    <nav class="navbar">
+        <ul class="navbar_list">
+            <li class="list_item">
                 <a href="#section-1">About us</a>
             </li>
-            <li>
+            <li class="list_item">
                 <a href="#section-2">Projects</a>
             </li>
-            <li>
+            <li class="list_item">
                 <a href="#section-3">Skills</a>
             </li>
-            <li>
+            <li class="list_item">
                 <a href="#section-4">Contact</a>
             </li>
         </ul>
     </nav>
     <header>
+        <h1 class="h1">Mr.Meeseeks</h1>
         <div>
             <picture>
                 <source media="(min-width: 780px)" srcset="
@@ -49,11 +55,10 @@
                 <source media="(min-width: 320px)" srcset="
                 resources/images/header_phone/mrmeeseeksp_375.jpg 380w,
                 resources/images/header_phone/mrmeeseeksp_320.jpg 325w">
-                <img src="resources/images/mrmeeseeksp.jpg">
+                <img src="resources/images/header_phone/mrmeeseeksp_320.jpg">
             </picture>
         </div>
-        <h1>Mr.Meeseeks</h1>
-        <h3><i>I'm Mr.Meeseeks!, look at me!</i></h3>
+        <h3 class="h3"><i>I'm Mr.Meeseeks!, look at me!</i></h3>
     </header>
 
     <main>
@@ -176,7 +181,7 @@
         </section>
     </main>
     <hr>
-    <footer>
+    <footer class="footer">
         <h4>Our networks</h4>
         <ul>
             <li>

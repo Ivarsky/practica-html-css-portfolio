@@ -1,0 +1,35 @@
+:root {
+    --main-color: #04bef1;
+    --footheadtext-color: #575d62;
+    --text-color: #f1fff8;
+    --web-background-color: #262c3a;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Share Tech', sans-serif;
+    background-color: var(--web-background-color);
+    color: var(--text-color);
+}
+
+.h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.h3 {
+    font-size: 2rem;
+}
+
+.navbar {
+    background-color: var(--main-color);
+    color: var(--footheadtext-color);
+}
+
+.footer {
+    background-color: var(--main-color);
+    color: var(--footheadtext-color);
+    text-align: center;
+    font-style: italic;
+
+}
