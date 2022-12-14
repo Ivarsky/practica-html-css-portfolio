@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mr. Meeseeks</title>
+    <link rel="stylesheet" href="style.css">
     <!-- Meta properties para open graph -->
     <meta property="og:title" content="Mr.Meeseeks">
     <meta property="og:description"
@@ -33,21 +34,28 @@
         </ul>
     </nav>
     <header>
+        <div>
+            <picture>
+                <source media="(min-width: 770px)" srcset="
+                resources/images/header_desktop/mrmeeseeksg_1024.jpg 1024w,
+                resources/images/header_desktop/mrmeeseeksg_970.jpg 970w,
+                resources/images/header_desktop/mrmeeseeksg_870.jpg 870w,
+                resources/images/header_desktop/mrmeeseeksg_770.jpg 770w">
+                <source media="(min-width: 420px)" srcset="
+                resources/images/header_tablet/mrmeeseeksg_700.jpg 700w,
+                resources/images/header_tablet/mrmeeseeksg_600.jpg 600w,
+                resources/images/header_tablet/mrmeeseeksg_500.jpg 500w,
+                resources/images/header_tablet/mrmeeseeksg_420.jpg 420w">
+                <source media="(min-width: 320px)" srcset="
+                resources/images/header_phone/mrmeeseeksp_375.jpg 375w,
+                resources/images/header_phone/mrmeeseeksp_320.jpg 320w">
+                <img src="resources/images/mrmeeseeksp.jpg">
+            </picture>
+        </div>
         <h1>Mr.Meeseeks</h1>
         <h3><i>I'm Mr.Meeseeks!, look at me!</i></h3>
     </header>
 
-    <body>
-        <div>
-            <picture>
-                <source media="(min-width: 1000px)" srcset="resources/images/mrmeeseeksg.jpg">
-
-                <source media="(min-width: 768px)" srcset="resources/images/mrmeeseeksm.jpg">
-
-                <img src="resources/images/mrmeeseeksp.jpg">
-            </picture>
-        </div>
-    </body>
     <main>
         <div>
             <p>Teach, Train, Coach, Mentor, Counsel, Tasks</p>
