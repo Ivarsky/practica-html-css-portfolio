@@ -3,6 +3,9 @@
     --footheadtext-color: #575d62;
     --text-color: #f1fff8;
     --web-background-color: #262c3a;
+    --border-color: #023A4E;
+    --section-color: #575D62;
+    --separators-color: rgba(87, 93, 98, 0.3);
     font-size: 16px;
 }
 
@@ -15,6 +18,12 @@ body {
 body nav {
     background-color: var(--main-color);
     color: var(--footheadtext-color);
+    border: 2px solid var(--border-color);
+    padding: 10px;
+}
+
+.navbar_list {
+    /* TODO:display none en mobile*/
 }
 
 .header {
@@ -30,7 +39,20 @@ body nav {
 }
 
 main {
+    width: 90%;
+    max-width: 768px;
+    margin: 20px auto 100px auto;
     text-align: center;
+}
+
+
+main .contact_section {
+    width: 95%;
+    max-width: 680px;
+    margin: 20px auto;
+    border: 2px dotted var(--border-color);
+    background-color: var(--section-color);
+    border-radius: 10px;
 }
 
 main .section_title {
@@ -43,5 +65,11 @@ footer {
     color: var(--footheadtext-color);
     text-align: center;
     font-style: italic;
+    padding: 30px 0;
+}
 
+.separators {
+    border: 0 dotted;
+    height: 1px;
+    background-color: var(--separators-color);
 }
