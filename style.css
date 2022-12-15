@@ -67,7 +67,7 @@ main {
 
 
 main .contact_section {
-    width: 95%;
+    width: 100%;
     max-width: 680px;
     margin: 20px auto;
     border: 2px dotted var(--border-color);
@@ -126,6 +126,43 @@ main .section_title {
 
 #sanity-bar {
     width: 50%;
+}
+
+/* form */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.form #how-know-us-field {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form #how-know-us-field .option-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#personal-info-field .labels {
+    display: none;
+}
+
+#mailing-info-field .labels {
+    display: none;
 }
 
 /* footer */
