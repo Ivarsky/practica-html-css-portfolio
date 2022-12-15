@@ -35,11 +35,12 @@ nav a.link {
     display: none;
 }
 
-@media (min-width: 426px) {
+@media screen and (min-width: 426px) {
     nav a.link {
         display: initial;
         color: var(--navtext-color);
         font-size: 1.2rem;
+        text-decoration: none;
     }
 }
 
@@ -78,6 +79,55 @@ main .section_title {
     font-size: 2rem;
 }
 
+/* progression bars */
+
+.skill-bars-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-name-box {
+    padding: 6px;
+}
+
+.progression-bar {
+    background-color: var(--section-color);
+    width: 100px;
+    height: 10px;
+    border: var(--section-color) solid 2px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.progression {
+    background-color: var(--main-color);
+    height: 10px;
+    border-radius: 10px;
+}
+
+#empathy-bar {
+    width: 95%;
+}
+
+#creat-think-bar {
+    width: 70%;
+}
+
+#inter-relations-bar {
+    width: 90%;
+}
+
+#confl-resolut-bar {
+    width: 83%;
+}
+
+#sanity-bar {
+    width: 50%;
+}
+
 /* footer */
 footer {
     background-color: var(--main-color);
@@ -85,4 +135,8 @@ footer {
     text-align: center;
     font-style: italic;
     padding: 30px 0;
+}
+
+footer a.link {
+    text-decoration: none;
 }
