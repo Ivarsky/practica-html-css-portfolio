@@ -24,7 +24,7 @@ body {
 }
 
 /* navigation bar */
-nav {
+.navbar {
     background-color: var(--main-color);
     color: var(--navtext-color);
     border: 2px solid var(--border-color);
@@ -37,16 +37,27 @@ nav {
     font-size: 2.5rem;
 }
 
-nav a.link {
+nav .navbar_list a.link {
     display: none;
 }
 
-@media screen and (min-width: 426px) {
-    nav a.link {
+@media screen and (min-width: 658px) {
+
+    .navbar {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar .navbar_list {
+        display: flex;
+    }
+
+    .navbar .navbar_list a.link {
         display: initial;
         color: var(--navtext-color);
         font-size: 1.2rem;
         text-decoration: none;
+        margin-left: 20px;
     }
 }
 
