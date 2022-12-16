@@ -109,6 +109,22 @@ main .section_title {
     border-radius: 50%;
 }
 
+.carousel-slides {
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.carousel-slides div {
+    height: 100%;
+    width: 100%;
+    color: #262c3a;
+    background-color: #04bef1;
+}
+
 /* progression bars */
 
 .skill-bars-list {
