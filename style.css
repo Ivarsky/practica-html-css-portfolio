@@ -41,6 +41,18 @@ nav .navbar_list a.link {
     display: none;
 }
 
+#projects-nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .home-link {
+    display: initial;
+    color: var(--navtext-color);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
 @media screen and (min-width: 658px) {
 
     .navbar {
