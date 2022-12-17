@@ -301,11 +301,53 @@ main .contact_section {
 }
 
 @media screen and (min-width: 1024px) {
+
     .projects-container {
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 20% 40% 40%;
+        grid-template-rows: 10% 45% 45%;
     }
+
+    .projects-container .projects-box {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects-container .projects-box .project-text {
+        margin: 10px 0;
+    }
+
+    .projects-container #beth-project-box {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .projects-container #summer-project-box {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .projects-container #jerry-project-box {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .projects-container #morty-project-box {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+
 }
 
 
