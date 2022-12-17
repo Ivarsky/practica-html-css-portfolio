@@ -219,6 +219,50 @@ main .section_title {
     display: none;
 }
 
+@media screen and (min-width: 658px) {
+    .form {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 40% 40% 20%;
+    }
+
+    .form .fields {
+        margin: 30px 0;
+    }
+
+    #personal-info-field {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    #mailing-info-field {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .form #how-know-us-field {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form #how-know-us-field .option-box {
+        margin: 0 5px;
+    }
+
+    .mailing-warning {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+}
+
 /* footer */
 .footer {
     background-color: var(--main-color);
