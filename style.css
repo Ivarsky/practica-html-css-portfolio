@@ -146,6 +146,12 @@ main .section_title {
     }
 }
 
+.projects-link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
 /* progression bars */
 
 .skill-bars-list {
