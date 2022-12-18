@@ -233,6 +233,12 @@ main .contact_section {
 
 }
 
+#others-optionbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #personal-info-field .labels {
     display: none;
 }
@@ -282,7 +288,10 @@ main .contact_section {
         grid-column-end: 3;
         grid-row-start: 3;
         grid-row-end: 4;
+        justify-content: center;
     }
+
+
 
 
     .mailing-warning {
