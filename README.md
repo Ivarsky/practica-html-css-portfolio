@@ -11,6 +11,9 @@ El carousel con nuestros trabajos son frames de distintos momentos de la serie d
 ### Detalles de proyectos
 La sección detalles de proyectos en vez de hacer un grid con los proyectos el grid contiene vídeos de youtube, cada vídeo representa un proyecto, de cierta forma en la serie cada una de esas escenas es un proyecto del personaje.
 
+### Barras de skill
+Las barras son aspectos de su personalidad o habilidades, la barra de sanity tiene una animación diferente a propósito para reflejar que el personaje pierde cordura cuanto más tiempo esté vivo.
+
 ### Contacto
 La sección de contactos es un formulario para rellenar datos de envío para recibir una Mr.Meeseeks box, en esto no tiene sentido lo de incluir el tag de Github pero por requerimientos lo he añadido.
 
