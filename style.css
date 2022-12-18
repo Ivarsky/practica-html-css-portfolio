@@ -130,6 +130,9 @@ main .section_title {
     height: 100%;
     width: 100%;
     background-color: var(--web-background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (min-width: 658px) {
@@ -242,7 +245,7 @@ main .contact_section {
     .form {
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 40% 40% 20%;
+        grid-template-rows: 40% 40% 10% 10%;
     }
 
     .form .fields {
@@ -275,9 +278,16 @@ main .contact_section {
 
     .mailing-warning {
         grid-column-start: 1;
-        grid-column-end: 4;
+        grid-column-end: 3;
         grid-row-start: 3;
         grid-row-end: 4;
+    }
+
+    .form .button-field {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
     }
 
 }
