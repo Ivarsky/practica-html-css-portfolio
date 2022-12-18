@@ -75,7 +75,7 @@ nav .home-link {
 
     .navbar .navbar_list a.link:hover {
         font-size: 1.5rem;
-        transition: font-size .2s linear;
+        transition: all .3s linear;
         color: var(--foottext-color);
     }
 }
@@ -183,24 +183,83 @@ main .section_title {
     border-radius: 10px;
 }
 
+@keyframes empathy {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 95%;
+    }
+}
+
 #empathy-bar {
-    width: 95%;
+    animation: empathy 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes creative-think {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
 }
 
 #creat-think-bar {
-    width: 70%;
+    animation: creative-think 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes inter-relations {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
 }
 
 #inter-relations-bar {
-    width: 90%;
+    animation: inter-relations 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes confl-resolut {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 83%;
+    }
 }
 
 #confl-resolut-bar {
-    width: 83%;
+    animation: confl-resolut 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sanity {
+    0% {
+        width: 0%;
+    }
+
+    50% {
+        width: 45%;
+    }
+
+    100% {
+        width: 0%;
+    }
 }
 
 #sanity-bar {
-    width: 50%;
+    animation: sanity 4s;
+    animation-iteration-count: infinite;
 }
 
 /* form */
@@ -340,7 +399,7 @@ main .contact_section {
 
     #projects-nav a:hover {
         font-size: 1.5rem;
-        transition: font-size .2s linear;
+        transition: all .2s linear;
         color: var(--foottext-color);
     }
 
