@@ -70,6 +70,13 @@ nav .home-link {
         font-size: 1.2rem;
         text-decoration: none;
         margin-left: 20px;
+        cursor: pointer;
+    }
+
+    .navbar .navbar_list a.link:hover {
+        font-size: 1.5rem;
+        transition: font-size .2s linear;
+        color: var(--foottext-color);
     }
 }
 
@@ -311,6 +318,7 @@ main .contact_section {
 }
 
 /* projects page */
+
 .projects-container {
     display: flex;
     flex-direction: column;
@@ -329,6 +337,12 @@ main .contact_section {
 }
 
 @media screen and (min-width: 1024px) {
+
+    #projects-nav a:hover {
+        font-size: 1.5rem;
+        transition: font-size .2s linear;
+        color: var(--foottext-color);
+    }
 
     .projects-container {
         display: grid;
