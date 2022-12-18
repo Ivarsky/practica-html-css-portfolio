@@ -142,17 +142,24 @@ main .section_title {
     align-items: center;
 }
 
+.projects-link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.projects-link:hover {
+    font-size: 1.8rem;
+    transition: all .3s linear;
+    color: var(--main-color);
+}
+
 @media screen and (min-width: 658px) {
     .carousel-slides {
         height: 65vh;
     }
 }
 
-.projects-link {
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: var(--text-color);
-}
 
 /* progression bars */
 
