@@ -188,11 +188,12 @@
                     </div>
                     <div>
                         <label class="labels" for="name">Name</label>
-                        <input required type="text" name="name" id="name" placeholder="Your name">
+                        <input required type="text" name="name" id="name" placeholder="Full Name">
                     </div>
                     <div>
-                        <label class="labels" for="lastname">Last name</label>
-                        <input required type="text" name="lastname" id="lastname" placeholder="Your last name">
+                        <label class="labels" for="github">Last name</label>
+                        <input required type="text" name="github" id="github-tag" placeholder="Github Tag"
+                            pattern="^@[^\s]+">
                     </div>
                     <div>
                         <label class="labels" for="mail">Email</label>
@@ -200,7 +201,7 @@
                     </div>
                     <div>
                         <label class="labels" for="phone">Phone number</label>
-                        <input type="tel" name="phone" id="phone" pattern="[0-9]+" placeholder="Phone number">
+                        <input required type="tel" name="phone" id="phone" pattern="[0-9]+" placeholder="Phone number">
                     </div>
                 </fieldset>
                 <fieldset class="fields" id="mailing-info-field">
@@ -221,7 +222,7 @@
                     </div>
                     <div>
                         <label class="labels" for="dimension">Dimension</label>
-                        <input type="text" name="dimension" id="dimension" placeholder="Dimension">
+                        <input required type="text" name="dimension" id="dimension" placeholder="Dimension">
                     </div>
                 </fieldset>
                 <fieldset class="fields" id="how-know-us-field">
@@ -239,7 +240,7 @@
                 <fieldset class="fields" id="others-field">
                     <div class="option-box" id="others-optionbox">
                         <label for="other">Other</label>
-                        <textarea name="other" id="knowus-other-text" cols="30" rows="5"></textarea>
+                        <textarea name="other" id="knowus-other-text" maxlength="180" cols="30" rows="5"></textarea>
                     </div>
                 </fieldset>
                 <div class="button-field">
